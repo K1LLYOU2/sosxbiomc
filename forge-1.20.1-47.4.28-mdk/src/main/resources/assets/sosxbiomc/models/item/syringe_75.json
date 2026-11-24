@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sosxbiomc:item/empty_syringe",
+    "layer1": "sosxbiomc:item/syringe_liquidmask_75",
+    "layer2": "sosxbiomc:item/syringe_overlay"
+  }
+}

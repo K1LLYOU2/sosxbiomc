@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sosxbiomc:item/empty_syringe",
+    "layer1": "sosxbiomc:item/syringe_overlay"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "sosxbiomc:fill_level": 0.25
+      },
+      "model": "sosxbiomc:item/syringe_25"
+    },
+    {
+      "predicate": {
+        "sosxbiomc:fill_level": 0.50
+      },
+      "model": "sosxbiomc:item/syringe_50"
+    },
+    {
+      "predicate": {
+        "sosxbiomc:fill_level": 0.75
+      },
+      "model": "sosxbiomc:item/syringe_75"
+    },
+    {
+      "predicate": {
+        "sosxbiomc:fill_level": 1.00
+      },
+      "model": "sosxbiomc:item/syringe_100"
+    }
+  ]
+}
